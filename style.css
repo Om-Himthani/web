@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    --main-color:#B3DAF5;
+    --backround-color:#F4F9FF;
+    --button-backround:#0080F6;
+--text:#000000;
+overflow:none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--button-backround);
+
+}
+li{
+    list-style: none;
+
+}
+h2{
+    text-transform: capitalize;
+    font-family: 'Aladin', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Aladin', cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 4.4rem;
+ 
+}
+/*------------------- NAVBAR style -------------
+------------------------------------------------*/
+header{
+    padding: 0rem 2rem;
+  
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    padding: 0rem 2rem;
+    color:var(--button-backround);
+}
+header nav a li{
+    font-size: 2.5rem;
+    font-family: 'Satisfy', cursive;
+font-style:normal;
+color:var(--button-backround);
+}
+header nav .logo a h1{
+    font-weight: bold;
+}
+header nav .main-menu{
+    display: flex;
+}
+/*--------------- Home page--------------------
+----------------------------------------------- */
+.home{
+    width: 100%;
+    height: 100vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.home .leftside{
+    width: 50%;
+    height: 100vh;
+display: flex;
+
+align-items: center;
+flex-direction: column;
+margin-bottom: 10rem;
+}
+.home .leftside .container{
+    width: 60rem;
+height: 40rem;
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+position: absolute;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+background-color: var(--main-color);
+border-radius: 4.3rem;
+margin-top: 4rem;
+margin-left: 10rem;
+
+}
+
+.home .leftside .container p{
+    font-size: 2.5rem;
+  padding: 10rem 5rem;
+    line-height:3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.home .leftside .container .heading img{
+width: 2rem;
+height: 2rem;
+}
+.home .leftside .container .heading{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+.home .leftside .container .heading img{
+    position: absolute;
+           width: 61.5rem;         
+   height: 20rem;
+   top: 0rem;
+   left: 0rem;
+
+  
+}
+.home .rightside{
+    width: 50%;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.home .rightside img{
+    width: 35rem;
+    height: 50rem;
+    position: absolute;
+    top: 10rem;
+}
+/* ----------------------items-----------------------------
+----------------------------------------------------------- */
+.Section2{
+width: 100vw;
+height: 100vh   ;
+}
+
+
+
+.Section2 h1{
+    font-size: 8rem;
+    margin: 5rem 55rem;
+    text-transform:capitalize ;
+    color: var(--button-backround);
+    letter-spacing: 0.3rem;
+    
+}
+.Section2 .items{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Section2 .items .medicines img,.Section2 .items .phoneRecharge img {
+    width: 35rem;
+    height: 35rem;
+margin: 5rem 5rem;
+
+}
+.Section2 .items .phoneRepare img{
+    width: 35rem;
+    height: 33rem;
+    margin: 5rem 5rem;
+ 
+}
+.Section2 .items .medicines img:hover{
+    transform: rotate(360deg);
+    transition: all 1s linear;
+}
+.Section2 .items .phoneRecharge img:hover{
+    transform: rotate(360deg);
+    transition: all 1s linear;
+    }
+    .Section2 .items .phoneRepare img:hover{
+        transform: rotate(360deg);
+        transition: all 1s linear;
+        }
+        /* -------------------About Us------------------------
+           --------------------------------------------------- */
+        .Section3{
+width: 100vw;
+height: 100vh   ;
+
+margin-top: 20rem;
+display: flex;
+
+
+
+        }  
+        .aboutus h1{
+font-size: 7rem;
+font-family: 'Aladin', cursive; 
+color: var(--button-backround);   
+/* margin: 5rem 5rem; */
+}  
+.aboutus{
+    margin: 0 60rem;
+    width: 100%;  
+}
+
+        .Section3 .left{
+             width: 50%;
+            height:100%; 
+margin-top: 10rem;
+margin-left: 7rem;
+
+        }
+        .Section3 .left .box{
+            width: 50rem;
+            height: 55rem;
+            box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+   border-radius:4rem ;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--main-color);
+ 
+   
+        }
+        .Section3 .left .box .img{
+            width: 100%;
+            height:20%;
+         
+        }
+        .Section3 .left .box img{
+            width: 50rem;
+            height: 15rem;
+        }
+        .Section3 .left .box .text{
+            margin-top: 10rem;
+            width:100%;
+            height: 70%;
+            
+            margin-left: 3rem;
+        }
+        .Section3 .left .box .text p{
+            font-size: 2rem;
+            letter-spacing: 0.1rem;
+            font-family: 'Roboto', sans-serif;
+        }
+        .Section3 .right{
+            width: 50%;
+            height: 100%;
+            margin-top: 10rem;
+        }
+        .Section3 .right .img img{
+            width: 55rem;
+            height: 65rem;
+        }
+        /*--------------------- ContactUs--------------------------
+        ----------------------------------------------------------- */
+        
+        .Section4{
+            width: 100vw;
+            height: 100vh   ;
+         margin-top: 50rem;
+            
+        }
+
+        .Section4 form
+        {
+width:60rem;
+height:60rem;
+background-color: var(--main-color);
+margin-left: 40rem;
+border-radius: 5rem;
+display: flex;
+
+align-items: center;
+flex-direction: column;
+
+     }
+   
+       /* .Section4  .contact{
+         width: 100%; 
+         height: 20%;
+
+     } */
+     
+     .Section4  form div{
+margin: 3rem 0;
+display: flex;
+flex-direction: column;
+
+
+
+     }
+     .Section4  form input[type=text]{
+width:40rem;
+height: 4rem;
+border-radius: 3rem;
+border: 1px solid white;
+font-size: 2rem;
+padding: 0rem 1rem;
+box-shadow: 0rem 2.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+.Section4  form input[type=text]:focus{
+outline: none;
+border: 5px solid #fffc38;
+
+}
+.Section4  form input[type=number]:focus{
+    outline: none;
+    border: 5px solid #fffc38;
+}
+     .Section4  form input[type=number]{
+        width:40rem;
+        height: 4rem;
+        border-radius: 3rem;
+border: 1px solid white;
+font-size: 2rem;
+padding: 0rem 1rem;
+box-shadow: 0rem 2.4rem 2rem rgba(35, 52, 53, 0.25);
+             }
+             label{
+
+                 font-size: 2rem;
+                 font-family: 'Mulish', sans-serif;
+             }
+             .Section4  form textarea{
+                width:40rem;
+                height: 7rem;
+                border-radius: 3rem;
+                border: 1px solid white;
+                font-size: 2rem;
+                padding: 0rem 1rem;
+                box-shadow: 0rem 2.4rem 2rem rgba(35, 52, 53, 0.25);
+                }
+                .Section4  form textarea:focus{
+                outline: none;
+                border: 5px solid #fffc38;
+                }
+                .Section4  form button{
+                    border : none;
+                    font-size: 2rem;
+                    padding: 0.7rem 6rem;
+                    margin-bottom: 2rem;
+                    border-radius: 3rem;
+                    box-shadow: 0rem 2.4rem 2rem rgba(35, 52, 53, 0.25);
+               cursor: pointer;
+                }
+                .Section4  form button:hover{
+                    background-color:#dffc9a;
+                }
+                .contact h1{
+                    font-size: 7rem;
+                    font-family: 'Aladin', cursive; 
+                    color: var(--button-backround);   
+        
+                    }  
+                    .contact{                       
+                         margin: 0 60rem;
+                        width: 100%;
+               margin-bottom: 5rem;
+                    }
+                    @media (max-width:1280px){
+                        html{
+                            font-size: 50%;
+                        }
+                    }
+                    
+                    @media (max-width:860px){
+                        header nav a {
+                            padding: 0rem 1rem;
+
+                        }
+                        header nav .main-menu{
+                            justify-content:space-between;
+
+                        }
+                       .home{
+                           flex-direction: column;
+                       }
+                        
+                        .home .rightside .img{
+                            margin:0 auto ;
+                            margin-top: 40rem;
+                              display: block;
+                        }
+                        .home .rightside{
+                          width: 100%;
+                         
+                        }
+                        .Section3 .left{
+                            width: 100%;
+                            height: 50%;
+                        }
+                        .home .leftside{
+                            width: 100%;
+                            height: 50vh;
+                        }
+                        
+                            
+                        .Section3{
+                            flex-direction: column;
+                            
+                        }
+                        .Section3 .right{
+                            display: block;
+                            margin: 0 auto;
+                            
+                        }
+                       
+                        
+                        .Section2 .h1{
+                            margin-top: 20rem;
+                           
+                        }
+                        
+                        .Section4 form{
+                           margin-left: 23%;
+                           
+                             height: 65rem;
+                         }
+                        
+                        
+                       
+                        .Section4{
+                            margin-top: 50rem;
+                        }
+                        .aboutus{
+                            margin:0 40rem;
+                            display: block;
+        
+                            margin-top: 40rem; 
+                              
+                          
+                        }
+                       
+                         .contact{
+                            margin:0 40%;
+                        }
+                    }
+                    @media(max-width:980px){
+                       
+                    .home .leftside .container{
+                    margin-left: auto;
+                    }
+                    .Section2 .items{
+                        display: grid;
+                    grid-template-columns: 1fr 1fr ;
+                    }
+                    .aboutus{
+                        margin-top:40rem ;
+                      
+                    }
+                    
+                   
+                }
+                @media (max-width:680px){
+                    .Section2 .items{
+                        display: grid;
+                        grid-template-columns: 1fr;
+                       
+                    }
+                   
+                    .Section2 h1{
+                        
+                        margin-right:33rem ;
+                        margin-left: 33rem;
+                    }
+                    .Section2 .items .medicines,.Section2 .items .phoneRecharge,.Section2 .items .phoneRepare{
+                         margin: 0 auto;
+                    }
+                    .Section4 form{
+                        margin-left: 15%;
+                        
+                         
+                      }
+                      .aboutus{
+                        margin-top: 85rem;
+                        margin-left: 26rem;
+                    }
+                      }
+                     
+                     @media (max-width:600px){
+                        header nav {
+                            padding-top: 1rem;
+                            display: flex;
+                            flex-flow: column;
+                            align-items: flex-start;
+                          }
+                        header nav a{
+                            padding: 0rem 1rem;
+                        }
+                        header nav .logo{
+                            
+                                width: 100%;
+                                display: block;
+                                order: 1;
+                              }
+                            
+                        header nav .main-menu{
+                           
+                                width: 100%;
+                         order: 2;
+                              
+                            
+                        } 
+                        header nav .main-menu a{
+                        margin-right: 2rem;
+                        }
+                        .home .rightside .img{
+                            margin-top: 45rem;
+                        }
+
+                     }
+                     @media (max-width:500px){
+                        .home .leftside .container{
+                            width: 44rem;
+                            height: 50rem;
+                            
+                        }
+                        .home .rightside .img{
+                           
+                            margin-top: 55rem;
+                           
+                        }
+                        .home .leftside .container .heading img{
+                            width: 45rem;
+                        
+                        }
+                        .Section2 h1{
+                            margin-top: 20rem;
+                            margin:10rem 35rem;
+                            margin-left: 10rem;
+                            position: relative;
+                            left: 10rem;
+                        }
+                        .aboutus{
+                            margin-top: 78rem;
+                            position: relative;
+                            right: 10rem;
+                        }
+                        .Section3 .right{
+                          display: inline-table;
+                          margin-right: 20rem;
+                        }
+                        .Section4 form {
+                      
+                            width: 100%;
+                            margin-left: initial;
+                        border-radius: 3rem;
+                        }
+                        .contact{
+                            margin: 0 30%;
+                        }
+                     
+                     .Section3 .left .box{
+                         width: 43rem;
+                         height: 65rem;
+                     }
+                     .Section3 .left .box img{
+                         width: 43rem;
+                     }
+                     .Section3 .right .img img{
+                        width: 45rem;
+                        height: 57rem;
+                    }
+                    .Section4  form input[type=text],.Section4  form input[type=number], .Section4  form textarea{
+                        width: 30rem;
+                    }
+                    .Section3 .left{
+                        margin-left: 2rem;
+                    }
+                    header nav a {
+                        padding: 0rem 1rem;
+                    }
+                    }
